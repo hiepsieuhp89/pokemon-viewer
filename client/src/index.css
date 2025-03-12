@@ -14,7 +14,6 @@
     background-image: radial-gradient(circle at center, transparent 0, transparent 40%, rgba(255, 255, 255, 0.1) 40%, rgba(255, 255, 255, 0.1) 100%);
     background-size: 300px 300px;
     background-position: -150px -150px;
-    animation: rotate 120s linear infinite;
   }
 
   .glow-effect {

@@ -1,13 +1,6 @@
 {
   "variant": "vibrant",
-  "primary": "#FF5350",
+  "primary": "oklch(70% 0.1 20)",
   "appearance": "light",
-  "radius": 1.0,
-  "colors": {
-    "pokered": "#FF5350",
-    "pokeblue": "#3860B0",
-    "pokeyellow": "#FFCB05",
-    "pokelight": "#F2F2F2",
-    "pokedark": "#1E1E1E"
-  }
+  "radius": 1
 }
