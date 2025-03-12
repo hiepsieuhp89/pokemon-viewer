@@ -44,6 +44,12 @@ export default {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
+        // Pokemon color palette
+        pokered: "#FF5350",
+        pokeblue: "#3860B0",
+        pokeyellow: "#FFCB05",
+        pokelight: "#F2F2F2",
+        pokedark: "#1E1E1E",
         chart: {
           "1": "hsl(var(--chart-1))",
           "2": "hsl(var(--chart-2))",
@@ -79,10 +85,50 @@ export default {
             height: "0",
           },
         },
+        "float": {
+          "0%, 100%": {
+            transform: "translateY(0)",
+          },
+          "50%": {
+            transform: "translateY(-10px)",
+          },
+        },
+        "pulse": {
+          "0%, 100%": {
+            opacity: "1",
+            transform: "scale(1)",
+          },
+          "50%": {
+            opacity: "0.8",
+            transform: "scale(1.05)",
+          },
+        },
+        "rotate": {
+          "from": {
+            transform: "rotate(0deg)",
+          },
+          "to": {
+            transform: "rotate(360deg)",
+          },
+        },
+        "glow": {
+          "0%": {
+            top: "-200%",
+            left: "-200%",
+          },
+          "100%": {
+            top: "200%",
+            left: "200%",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "float": "float 3s ease-in-out infinite",
+        "pulse": "pulse 2s ease-in-out infinite",
+        "rotate": "rotate 120s linear infinite",
+        "glow": "glow 4s linear infinite",
       },
     },
   },

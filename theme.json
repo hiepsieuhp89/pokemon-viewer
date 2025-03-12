@@ -1,11 +1,13 @@
 {
-  "variant": "professional",
-  "primary": "hsl(222.2 47.4% 11.2%)",
+  "variant": "vibrant",
+  "primary": "#FF5350",
   "appearance": "light",
-  "radius": 0.5,
+  "radius": 1.0,
   "colors": {
-    "pokered": "#EF4444",
-    "pokeblue": "#3B82F6",
-    "pokeyellow": "#FBBF24"
+    "pokered": "#FF5350",
+    "pokeblue": "#3860B0",
+    "pokeyellow": "#FFCB05",
+    "pokelight": "#F2F2F2",
+    "pokedark": "#1E1E1E"
   }
 }
