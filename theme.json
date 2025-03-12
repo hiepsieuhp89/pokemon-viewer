@@ -1,0 +1,11 @@
+{
+  "variant": "professional",
+  "primary": "hsl(222.2 47.4% 11.2%)",
+  "appearance": "light",
+  "radius": 0.5,
+  "colors": {
+    "pokered": "#EF4444",
+    "pokeblue": "#3B82F6",
+    "pokeyellow": "#FBBF24"
+  }
+}
